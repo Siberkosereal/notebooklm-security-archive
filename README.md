@@ -19,19 +19,16 @@ These tools ensured that the disparate sources were unified into a consistent, m
 ## 📚 Source Attribution & Metadata
 The materials hosted here are collected from publicly available repositories, research blogs, and open-access security reports. All intellectual property belongs to the respective original authors and organizations.
 
-| File ID | Original Title / Source | Resource Type | Link/Reference |
-| :--- | :--- | :--- | :--- |
-| File ID | Original Title / Source | Resource Type | Link / Reference |
-| :--- | :--- | :--- | :--- |
-| 01 | `can_değer_sss.txt` | Can Değer (LuNiZz) | [GitHub Repo](https://github.com/LuNiZz/siber-guvenlik-sss) |
-| 02 | `02_sibergüvenlik_dalları.txt` | General Security Resources | Educational Guide |[GitHub Repo] | (https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/SiberGuvenlik.md)
-| 03 | `03_yazılım.txt` | Software Development Basics | Technical Guide | [GitHub Repo] |(https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/yazilim.md)
+| File ID | Original Title / Source | Resource Type | Link/Reference
+| 01 | `can_değer_sss.txt` | Can Değer (LuNiZz) | [GitHub Repo]|(https://github.com/LuNiZz/siber-guvenlik-sss) |
+| 02 | `02_sibergüvenlik_dalları.txt` | General Security Resources | [GitHub Repo] | (https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/SiberGuvenlik.md)
+| 03 | `03_yazılım.txt` | Software Development Basics | [GitHub Repo] |(https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/yazilim.md)
 | 04 | `04_tüm_linux.txt` / `tüm_linux.md` | Linux Systems Guide | Technical Reference |(https://www.linuxdersleri.net/)
 | 05 | `Main Aircrack-ng.md` | Aircrack-ng Team | [Official Docs](https://www.aircrack-ng.org/doku.php) |
 | 06 | `PayloadsAllTheThings.md` | SwisskyRepo | [GitHub Repo](https://github.com/swisskyrepo/PayloadsAllTheThings) |
 | 07 | `YazbelPython...pdf` | Yazbel (istihza) | [Official Site](https://python-istihza.yazbel.com/) |
 | 08 | `awsome-sec.md` | Awesome-Security Community | [GitHub Repo](https://github.com/trampgeek/awesome-security) |
-| 09 | `cyber-security.pdf` | Industry Research | Security Overview |
+| 09 | `cyber-security.pdf` | Roadmap | roadmap.sh |
 | 10 | `owasp_top_ten_2025.md` | OWASP Foundation | [Official Site](https://owasp.org/www-project-top-ten/) |
 | 11 | `peass-ng github` | carlospolop | [GitHub Repo](https://github.com/carlospolop/PEASS-ng) |
 | 12 | `68747470...png` | Paul Jerimy | [Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/) |
