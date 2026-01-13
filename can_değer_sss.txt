@@ -1,0 +1,282 @@
+(▲) Siber Güvenlik Öğrenmeye Nereden başlamalıyım?
+
+Şu anda bulunduğun site, yukarıdaki linkler, aşağıdaki metinler zaten nasıl ilerleyeceğini sana anlatmak için var.
+
+Unutmadan en temel eğitim playlist'i olarak, CyberMentor'un ücretsiz şu YouTube videolarını sömür ;) Ayrica siberguvenlik dallari, yol haritalari konusunda kapsamli bir belgemiz de var.. (https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/SiberGuvenlik.md)
+
+ 
+(▲) Hangi bilgisayarı almalıyım?
+
+Şimdi dostum, bu iş bol bol makale okumanı, video izlemeni ve en önemlisi sanal makine (VM) çalıştırmanı gerektirecek.
+
+Bence bir bilgisayarda araman gerekenler şunlar:
+
+        Hafiflik: Starbucks'da veya okulda priz aramadan çalışabilmelisin.
+        İşlemci: Intel i5/i7 veya Ryzen 5/7 (maksimum 2 nesil eski). Veya bütçen yetiyorsa Apple M1/M2/M3 serisi (Artık sanallaştırma sorunları çözüldü, pil ömrü ve performansı efsane).
+        RAM (Çok Önemli): En az 16 GB RAM olsun. 8 GB ile tarayıcıyı zor açarsın, sanal makine kurunca bilgisayar ağlar.
+        SSD: HDD devri bitti. Kesinlikle SSD (mümkünse NVMe) olmalı.
+
+"Oyun da oynayacağım" dersen Gaming Laptop bakabilirsin ama sırtın ağrır ve pili çabuk biter. Sadece iş/okul ise Ultrabook veya MacBook candır. Şifre kırma işlerini artık laptopta değil Cloud'da yapıyoruz, ekran kartına çok takılma.
+
+ 
+(▲) Piyasa çok kötü, Junior (yeni başlayan) olarak iş bulamıyorum. Ne yapmalıyım?
+
+Pandemi dönemindeki "herkese iş var" balonu söndü. Artık sadece eğitim izlemek yetmez.
+
+    GitHub Vitrini: O profil yeşillenecek. Klon projeler yerine kendi araçlarını yaz.
+    Open Source: Açık kaynak projelere katkıda bulunmak, sertifikadan değerlidir.
+    Network: Discord sunucularına gir, insanlarla tanış, projelerini anlat.
+    Soft Skills: Derdini anlatamayan siber güvenlikçiyi kimse istemez.
+
+ 
+(▲) Yapay Zeka (AI) çıktı, yazılımcılık bitiyor mu? İşsiz mi kalacağız?
+
+Sakin ol şampiyon! Yapay zeka senin işini elinden almayacak, Yapay zekayı iyi kullanan biri senin işini elinden alacak. Kod yazmak artık "amelelik" yapmaktan çıkıp "mimarlık" yapmaya evriliyor. ChatGPT, Copilot gibi araçları "rakip" olarak değil, "süper zeki stajyerin" olarak gör.
+
+Yazilim ogrenmek konusunda bir SSS belgemiz var, bir goz at cano https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/yazilim.md
+
+Ozetle, temel tavsiyelerim ve gozlemlerim sunlar;
+
+    AI Kodlama Araçları ve İş Piyasası: CEO’lar AI araçlarının etkisini abarttı, çok fazla geliştirici işten çıkarıldı. Piyasa toparlanıyor, ancak 2019’daki “altın çağ” seviyesine dönmeyecek. LLM’ler (büyük dil modelleri) sayesinde Linkedin'de vs iş ilanlarına spam başvurular arttı; işe alım süreci zorlaştı.
+
+    İş Ararken: Networking kritik: Konferanslara, meetuplara katılın, açık kaynak projelere katkı verin, topluluklarda aktif olun. “AI her şeyi sahte yapabilir” çağında insan gibi görünmek önemli: Gerçek etkinliklere katılın, projelerinizi paylaşın.
+
+    AI son durumu: AI araçları geliştiricileri tamamen değiştirmiyor; sadece hız kazandırıyor. Kod üretimi hâlâ insan gözetimi gerektiriyor; bakım ve mimari kararlar kritik. LLM’ler prototip oluşturmak için faydalı ama üretim kodu için riskli (teknik borç artıyor). AI hype’ı azaldı; şirketler artık “AI geliştiriciyi güçlendirir” mesajına geçti.
+
+ 
+(▲) LLM (Large Language Models) kullanarak kendi AI uygulamalarımı nasıl geliştirebilirim?
+
+Python öğreneceksin, OpenAI veya Anthropic API'si ile konuşmayı öğreneceksin. LangChain diye bir framework var, bunu öğrenirsen sırtın yere gelmez. Vektör veritabanlarını (Pinecone vs.) da araştır.
+
+ 
+(▲) AI herkesi eşitledi mi? İnsanın farkı nerede kaldı?
+
+Bu konuyu anlatmak için sana sektörden, Ernst & Young (EY) danışmanlarının yaşadığı çok çarpıcı bir olayı anlatayım. Bu hikaye, gelecekte kime para ödeneceğini çok net özetliyor.
+
+EY danışmanları, yüzlerce şirketin CEO'su ve yönetim kurullarıyla bir "AI Masterclass" düzenliyorlar. Bu "abilerimize/ablalarımıza" ChatGPT ve türevlerini kullandırarak; şirketleri için yeni satış planları, pazarlama stratejileri ve büyüme hedefleri hazırlatıyorlar. Sonra da bunları sunmalarını istiyorlar.
+
+Sonuçlar ilk bakışta mükemmel! Herkesin sunumu, planı, stratejisi harika görünüyor. Fakat danışmanlar kısa süre sonra korkutucu bir gerçeği fark ediyorlar: Çıkan sonuçların hepsi, üç aşağı beş yukarı birbirinin aynısı.
+
+Buradan çıkaracağımız çok büyük bir ders var:
+
+    AI Seviyeyi Yükseltiyor Ama Zirveyi Zorlamıyor: Yapay zeka, hiç bilmeyen birini bile "ortalama üstü" bir seviyeye anında çıkarıyor (Floor'u yükseltiyor). Ama herkes aynı araçla, aynı veri havuzundan beslendiği için sonuçlar homojenleşiyor, yani sıradanlaşıyor (Ceiling'i delip geçemiyor).
+    Temel Bilgi Artık Bedava: Eskiden "bilgiye sahip olmak" para ederdi. Artık temel bilgiye herkes AI sayesinde saniyeler içinde ulaşıyor. Bu yüzden salt bilgi satarak para kazanma devri bitti.
+    Para Eden Şey Ne?: İnsanın vizyonu, mimari yeteneği, bakış açısı ve tecrübesi.
+
+Yani dostum; AI senin "el işçiliğini" ve "araştırma ameleliğini" yapar. Ama o tuğlaları üst üste koyarken hangi mimariyle koyacağına, neden o stratejiyi seçeceğine, insan psikolojisine nasıl dokunacağına karar veren SEN olacaksın. Robotlar ortalamayı kopyalar, sen fark yaratırsın. O yüzden teknik bilginin yanına mutlaka "vizyon" ve "kreatif bakış açısı" eklemelisin.
+
+ 
+(▲) Abi selam, XX yaşındayım sence geç kalmış olabilir miyim?
+
+Sevgili dostum, teknoloji ile ilgili konularda hiçbir şey için geç kalmış olmazsın. Ben 40 yaşından sonra SEO, Youtube, Twitch yayıncılığı ve Video Editing öğrendim. Önemli olan yaşın değil; disiplinin, öğrenme açlığın ve araştırma yeteneğin. Başlamak için en iyi zaman dün, ikinci en iyi zaman bugündür.
+
+ 
+(▲) Algoritmayı ve kod yazmayı ücretsiz bir şekilde nasıl öğreniriz?
+
+Bu konudaki linkleri aşağıda Programlama Kaynakları başlığı altında topladım, oraya bir tıkla ;)
+
+bunu da unutma Yazilim-SSS : https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/yazilim.md
+
+ 
+(▲) Roadmap (Yol Haritası)
+
+Roadmap.sh diye efsane bir site var. Olmak istediğin alanı (Cyber Security, DevOps, Backend vs.) seç ve adım adım neleri öğrenmen gerektiğini gör. Kaybolduğun zaman pusulan burası.
+
+ 
+(▲) Programlama geçmişim var, hangi Siber Güvenlik dalını seçmeliyim?
+
+En hızlı çözüm, büyük olasılıkla OWASP ve benzeri kurumlara bakarak, Application Pentester'lık veya Security Researcher'lık olacaktır. Kod biliyorsan, kodun nerede kırılacağını da daha iyi kestirirsin. BugCrowd ve HackerOne gibi platformların eğitimlerine gir, "Bug Bounty" olaylarını kovala.
+
+ 
+(▲) Kendimi hacker saldırılarından nasıl korurum?
+
+Kişisel güvenlik için harika bir "Checklist" var. Aşağıdaki Faydalı Github Repoları kısmında linkini verdim. Ama en temel kural: 2FA (İki aşamalı doğrulama) aç, her linke tıklama.
+
+ 
+(▲) Bu Linux'u nasıl öğrenicez?
+
+Linux, siyah ekrana bakıp Matrixçilik oynamak değildir :) İşletim sisteminin mantığını kavramaktır. Bunun için Linux Kaynakları bölümüne gidiyorsun, orada senin için seçtiğim siteler var.
+
+ 
+(▲) Web uygulama güvenliği için iyi bir kaynak biliyor musun?
+
+Adettendir, yine bir TCM videosu bırakarak başlayalım. Geri kalan tüm sağlam kaynakları (TryHackMe odaları, PortSwigger vs.) aşağıda Web Güvenliği Kaynakları başlığında listeledim. Orayı sömür.
+
+ 
+(▲) Siber Güvenlik için Üniversite okumalı mıyım?
+
+Şahsen ben üniversitenin gerekli olduğunu düşünüyorum. Mühendislik formasyonu sana "analitik düşünmeyi" öğretir. Ama üniversite sana işi öğretmez, işi sen öğrenirsin. Diplomasız bu işi yapan canavarlar var mı? Var. Ama diploma, özellikle kurumsal firmalarda ve yurt dışı vizelerinde hala geçerli akçe. Okuyorsan hakkını ver, okumuyorsan açığı kapatmak için 2 kat fazla çalış.
+
+ 
+(▲) Yurt dışına remote (uzaktan) çalışıp döviz kazanmak istiyorum, yol haritası nedir?
+
+Birinci kural: İNGİLİZCE. Bak aşağıda da yazdım, İngilizcen yoksa bu kapı sana %99 kapalı. İkinci kural: Global standartlarda iş yapman lazım. Önce yerelde piş, kurumsal tecrübe edin, bu süreçte İngilizceni ana dilin gibi yap, sonra LinkedIn'den ve remote iş sitelerinden yardır.
+
+ 
+(▲) Hangi programlama dillerine ve teknolojilerine eğilmeliyim?
+
+Siber güvenlikçiysen bir scripting dili (Python) şart. Linux'un dili Bash Scripting şart. Web güvenliği istiyorsan JavaScript ve SQL şart.
+
+ 
+(▲) Herşey çok iyi çok güzel de bu Pitonu (Python) nasıl öğreneceğiz?
+
+Senin için aşağıda devasa bir Python Başlangıç Rehberi hazırladım. Videolar, kitaplar, kurslar hepsi orada.
+
+ 
+(▲) Abi İngilizcem yok! Ne yapacağım?
+
+İngilizce öğreneceksin dostum, başka yolu yok. "Çeviriyle idare ederim" devri bitti. Dökümanlar İngilizce, videolar İngilizce, hata kodları İngilizce. Duolingo, Voscreen, Dizilab... Ne bulursan saldır. İngilizce bilmeyen yazılımcı/siberci, kanatsız kuş gibidir; zıplar ama uçamaz.
+
+ 
+(▲) Siber güvenlik ile değil de, yazılım ile ilgilenmek istiyorum. Hangi alanlara bakayım?
+
+Gelişmekte olan teknolojilere bakmak lazım: DevOps, full stack development, mobil programlama... Bu konudaki kaynakları da aşağıda Yazılım Kaynakları bölümünde bulabilirsin.
+
+ 
+(▲) Siber Guvenlik ve Oyun geliştirme konusu da ilgimi çekiyor. Hangisini seçmeliyim?
+
+İkisi de farklı konular tabii ki ancak, benim yaptığımı niye denemiyorsun? Oyun geliştirme firmasında siber güvenlikçi ol. Mesela ben, Danimarka'daki Unity genel merkezinde IT Security Architect olarak çalışmıştım. Bence keyifli olabilir, boş vakitlerinde de oyun geliştirirsin.
+
+ 
+(▲) Abi Instagram'dan sana sordum, mesajımı görmedin...
+
+Sevgili kardeşim, Instagram teknik destek hattı değil. Sorunu önce Google'a sor, sonra ChatGPT'ye sor, sonra forumlara/Discord'a sor. Armut piş ağzıma düş yapma. Araştırma kültürü (Googling), bu işin %50'sidir. Balık isteme, balık tutmayı öğren.
+
+ 
+(▲) Bu Linux'u adam gibi sıfırdan öğrenmek istiyorum ne yapacağım?
+
+Sadece Linux öğrenmek istiyorsan aşağıdaki Linux Kaynakları bölümüne bak. Orada "Linux Dersleri" ve "cmdchallenge" gibi harika linkler var.
+
+ 
+(▲) Sadece Networking (Ağ) öğrenmek için nereye bakmalıyım?
+
+Hedefin CCNA eğitimleri olmalı. Aşağıda Network Pentesting başlığı altında kaynakları derledim. Ayrıca Turkcell Geleceği Yazanlar'ın temel network eğitimi de fena değildir.
+
+ 
+(▲) Sızma testine ilgi duyuyorum, kırmadan dökmeden kendimi nasıl test ederim?
+
+Kali Linux'u kurduysan hemen TryHackMe veya HackTheBox sitelerine gidiyorsun. Orada yasal olarak hackleyebileceğin makineler var. Türkçe kaynak istersen CyberExam var.
+
+ 
+(▲) Kendi laboratuvarımı kurmak istiyorum nasıl yapacağım?
+
+Şu videoyu izle: https://www.youtube.com/watch?v=sy0QhKbogbY
+
+ 
+(▲) Kali uyumlu Wifi Adaptör ve VPN meselesi
+
+Wifi Kartı: Google'a "wifi adapters support kali monitoring" yaz, chipset modelini öğren, sonra o chipseti Türkiye'deki sitelerde arat. Marka değil, Chipset önemlidir. VPN: Kendine VPN kurmak istiyorsan Tailscale kullan, başın ağrımaz.
+
+ 
+(▲) Kali Linux mu? Parrot mu?
+
+Ben Parrot sevip, Kali kullanıyorum. Tamamen zevk meselesi. Kavgaya girme, birini seç ve kullan. Ya da Windows kullanıyorsan WSL2 (Windows Subsystem for Linux) ile Kali'yi Windows'un içinde çalıştır, fişek gibi oluyor.
+
+ 
+(▲) DevOps ve Cloud teknolojileri için nasıl bir yol izlemeli?
+
+Mutlaka Linux temellerini öğren. Git, Docker ve Kubernetes'te ustalaş. CI/CD araçlarını (GitHub Actions, Jenkins) ve Terraform'u öğren. Sertifika olarak AWS veya Azure sertifikalarına yönel. Aşağıda Bulut Bilişim Kaynakları bölümünde hazine yatıyor.
+
+ 
+(▲) Mobil uygulama için Flutter mı, React Native mi, Native mi?
+
+Flutter: Tek kod, yüksek performans. React Native: Web (JS/React) bilgin varsa çok hızlı adapte olursun. Native (Swift/Kotlin): En yüksek performans, platforma tam hakimiyet ama daha zahmetli. Seçim senin.
+
+ 
+(▲) Bunların dışında çok farklı bir sorum var, yanıtı burada yok. Ne yapmalıyım?
+
+Zaten yayınları yapma amacımız o. Yayına gel, Discord'a gel, sorunu düzgünce ifade et, tartışalım. Ama önce: Araştır ;)
+Linklerin, uzun ve genis halini, ALTIN MADENI KAYNAK HAVUZU'nda bulabilirsiniz
+
+🔗 KAYNAK VE LİNK HAVUZU 🔗
+
+Yukarıdaki sorularda bahsi geçen tüm kaynaklar, kategorize edilmiş halde aşağıdadır.
+
+💻 Programlama & Algoritma (Sıfırdan Başlayanlar)
+
+    Roadmap.sh (Yol Haritası) - Mutlaka İncele
+    HackerRank - Algoritma pratiği için.
+    CodeWars - Kendini test etmek için.
+    FreeCodeCamp - Sıfırdan ücretsiz eğitim.
+    GitHub Education Pack - Öğrenciysen kaçırma, tonla beleş tool var.
+
+🐍 Python3 Başlangıç Rehberi
+
+Türkçe Kaynaklar:
+
+    YazBel Python Belgeleri - Efsane Türkçe dokümantasyon.
+    BTK Akademi Python Eğitimleri - Devletin ücretsiz kaynağı.
+    Atıl Samancıoğlu Udemy
+    Yazılım Bilimi YouTube Kanalı
+
+İngilizce Kaynaklar:
+
+    CS50 Python Giriş (Harvard)
+    FreeCodeCamp YouTube
+    Tech With Tim
+    30 Days of Python (GitHub)
+
+🐧 Linux Kaynakları
+
+    Linux Journey - Adım adım Linux öğrenme sitesi.
+    CMD Challenge - Komut satırı pratiği.
+    Linux Dersleri (Türkçe)
+
+🌐 Web Güvenliği & Bug Bounty
+
+Başlangıç:
+
+    TCM Web Security Videosu
+    PortSwigger Academy - Bu işin İncil'i.
+    OWASP Top 10
+
+Pratik Siteleri (TryHackMe & Others):
+
+    TryHackMe OWASP 10 Odası
+    TryHackMe Burp Suite Odası
+    HackerOne CTF
+    Kontra Eğitim Sitesi
+
+🔌 Network & Pentesting
+
+    Network Basics for Hackers
+    Turkcell Geleceği Yazanlar - Temel Network
+    NetworkChuck YouTube (Efsane Anlatır)
+
+☁️ Bulut Bilişim (Cloud) Kaynakları
+
+    Awesome Cloud Security (Dev Liste)
+    AWS Training & Certification
+    Bulutistan Blog (Türkçe)
+    Microsoft Azure Fundamentals
+
+🐙 Faydalı GitHub Repoları
+
+    Personal Security Checklist (Kişisel Güvenlik)
+    Awesome Hacking Listesi
+    SecLists (Wordlistler)
+
+📝 Cheat Sheet'ler (Kopya Kağıtları)
+
+    Pentest Cheat Sheets
+    Reverse Shell Generator (Site ama cheat sheet niyetine geçer)
+    GTFOBins (Linux yetki yükseltme için)
+
+🎬 Filmler & Diziler (Motivasyon)
+
+    Mr. Robot (Dizi - Mutlaka izle)
+    Who Am I
+    The Matrix
+    Snowden
+    The Imitation Game
+    Silicon Valley (Dizi - Startup kültürü için)
+
+📺 Takip Edilesi YouTube Kanalları
+
+    Can Değer (Tabii ki ;))
+    John Hammond
+    LiveOverflow
+    NetworkChuck
+    PirateSoftware
+    David Bombal
+
