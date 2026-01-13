@@ -5,6 +5,12 @@ This repository contains a curated collection of cybersecurity resources, includ
 ## 🎯 Project Objective
 The goal is to consolidate disparate security documents—ranging from vulnerability research to network defense strategies—into a machine-readable format to leverage AI-driven insights, summarization, and cross-referencing.
 
+🛠️ Data Processing & Tooling
+To prepare these resources for Gemini NotebookLM, I utilized two custom Python tools I developed for content optimization:
+HTML to MD Converter: Used to strip unnecessary HTML tags and convert web-based resources into clean, structured Markdown for better AI comprehension.
+MD to HTML Converter: Used to generate web-compatible versions of the research notes while maintaining structural integrity.
+These tools ensured that the disparate sources were unified into a consistent, machine-readable format.
+
 ## 📁 Content Overview
 * **Formats:** Cleaned Markdown (.md) and HTML files.
 * **Topics:** Threat Intelligence, Network Security, Digital Forensics, and SecOps.
